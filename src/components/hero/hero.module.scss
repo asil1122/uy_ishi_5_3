@@ -1,0 +1,42 @@
+.hero {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.item_block {
+    margin-bottom: 16px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 127%;
+    color: #222;
+}
+
+.des {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 127%;
+    color: #717171;
+}
+
+.date {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 127%;
+    color: #717171;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 127%;
+    color: #222;
+}
