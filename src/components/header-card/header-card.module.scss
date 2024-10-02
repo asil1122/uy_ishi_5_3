@@ -1,0 +1,26 @@
+
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.li{
+    text-align: center;
+}
+
+.text{
+font-weight: 600;
+font-size: 12px;
+line-height: 133%;
+text-align: center;
+color: #717171;
+padding-bottom: 12px;
+}
+
+.text:active {
+    color: #000;
+    border-bottom: 2px solid #000;
+}

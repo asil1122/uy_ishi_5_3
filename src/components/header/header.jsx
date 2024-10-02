@@ -3,10 +3,12 @@ import style from "./header.module.scss"
 import logo from "../../assets/logo.svg"
 import icon from "../../assets/header_icon.svg"
 import icon2 from "../../assets/header_icon2.svg"
+import { Card } from "../header-card";
 
 export const Header = () => {
 
     return (
+        <>
         <header className={style.header}>
             <div className="container">
                 <div className={style.block}>
@@ -31,5 +33,7 @@ export const Header = () => {
                 </div>
             </div>
         </header>
+        <Card/>
+        </>
     )
 }
